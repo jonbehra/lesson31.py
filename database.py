@@ -79,7 +79,7 @@ def insert_data(books_dict, authors):
 
 
 if __name__ == "__main__":
-    from books_scrape import scrape_books
+    from books_scraper import scrape_books
 
     # Get the scraped data
     books_dict, authors = scrape_books()
